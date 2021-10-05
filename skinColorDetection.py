@@ -16,7 +16,7 @@ cv2.imshow("Orignal_Image",image)
 cv2.imshow("Mask_image",skinHSV)
 
 
-cv2.imwrite("D:/Python GIT/Python/rock_hsv.jpg", np.hstack([image, skinHSV]))
+# cv2.imwrite("D:/Python GIT/Python/rock_hsv.jpg", np.hstack([image, skinHSV]))
 
 cv2.waitKey(0)
 cv2.destroyAllWindows()
